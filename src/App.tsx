@@ -71,7 +71,7 @@ export function App() {
           }}
         />
   {/*
-  APPROACH TAKEN TO SOLVE BUG 3
+  APPROACH TAKEN TO SOLVE BUG 3.
   Conditional rendering is used to dynamically display either a 
   loading message or transaction data based on the value of 'transactions'. 
   If 'transactions' is null, a loading message is displayed; otherwise,
@@ -88,7 +88,7 @@ export function App() {
   The new code introduces conditional rendering based on the presence of transactions and whether they are filtered by employee. If transactions are null or filtered by employee, the "View More" button is not rendered.
 
   Part 2:
-  The goal is to ensure that the "View More" button disappears when all data has been loaded, preventing the user from clicking it and causing the page to crash.
+  The goal is to ensure that the "View More" button, disappears when all data has been loaded, preventing the user from clicking it and causing the page to crash.
   In the old code, the "View More" button was always visible if transactions were not null, even if all data had been loaded.
   The new code adds additional conditions to disable the button when all data has been loaded, ensuring that it is not clickable and preventing the page from crashing.
 */}
