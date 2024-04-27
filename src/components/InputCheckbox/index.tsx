@@ -8,7 +8,7 @@ export const InputCheckbox: InputCheckboxComponent = ({ id, checked = false, dis
   Approach taken bug2 fix:
   The goal is to fix the issue where clicking on the checkbox does not toggle its value as expected.
   In the old code, the label for attribute was missing, which could have caused the checkbox not to function correctly.
-  The new code adds the htmlFor attribute to the label element, associating it with the input checkbox using the inputId, which is essential for accessibility and ensures proper functionality.
+  The new code adds the (htmlFor) attribute to the label element, associating it with the input checkbox using the inputId, which is essential for accessibility and ensures proper functionality.
 */
   return (
     <div className="RampInputCheckbox--container" data-testid={inputId}>
