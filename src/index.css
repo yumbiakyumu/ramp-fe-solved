@@ -94,7 +94,7 @@ hr.RampBreak--l {
 .RampInputSelect--dropdown-container {
   display: none;
 /*
-  bug1 fix
+  bug1 fix.
   Approach taken: changed the position to absolute to make the dropdown 
   stay in the same position as you scroll the page
 */
