@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState } from "react"
 import { RequestByEmployeeParams, Transaction } from "../utils/types"
 import { useCustomFetch } from "./useCustomFetch"
 /*
-Bug7 Fix:
+Bug7 Fix.
 
 The bug occurred because transaction approval status wasn't persisting when switching between employees or selecting "All Employees". 
 
